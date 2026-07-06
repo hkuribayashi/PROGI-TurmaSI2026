@@ -19,7 +19,7 @@ void main(){
     for (int i=0; i<E; i++){
         int P = sc.nextInt();
         int S = sc.nextInt();
-        saldoPassageiros += P - S;
+        saldoPassageiros = saldoPassageiros + (P - S);
 
         if (saldoPassageiros < 0)
             erroNoSensor = true;
